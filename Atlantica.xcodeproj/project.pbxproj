@@ -7,15 +7,72 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		871531B720F51D30008245A3 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871531B620F51D30008245A3 /* LoginViewController.swift */; };
+		871531BB20F5339E008245A3 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871531BA20F5339E008245A3 /* HomeViewController.swift */; };
+		871531BF20F53560008245A3 /* HomeStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 871531BE20F53560008245A3 /* HomeStoryboard.storyboard */; };
+		8715B9ED20FA372800ACDBC3 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8715B9EC20FA372800ACDBC3 /* Utility.swift */; };
+		8715B9F120FC49FC00ACDBC3 /* CustomerInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8715B9F020FC49FC00ACDBC3 /* CustomerInfoViewController.swift */; };
+		8715B9F320FD01F300ACDBC3 /* WorkHistoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8715B9F220FD01F300ACDBC3 /* WorkHistoryCell.swift */; };
+		8715B9F520FD2D3800ACDBC3 /* ModelInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8715B9F420FD2D3800ACDBC3 /* ModelInfoViewController.swift */; };
+		8715B9F920FD2FF400ACDBC3 /* WorkPerformedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8715B9F820FD2FF400ACDBC3 /* WorkPerformedViewController.swift */; };
+		8716CB3220FE4DEC00740BDF /* CustomerInfo.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8716CB3120FE4DEC00740BDF /* CustomerInfo.storyboard */; };
+		8716CB3420FE528C00740BDF /* DispatchInfo.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8716CB3320FE528C00740BDF /* DispatchInfo.storyboard */; };
+		8716CB3620FE55A700740BDF /* DispatchInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8716CB3520FE55A700740BDF /* DispatchInfoViewController.swift */; };
+		871A6FEC20F7A9CB00C4883C /* NetworkHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871A6FEB20F7A9CB00C4883C /* NetworkHelper.swift */; };
+		871A6FEE20F7AC8900C4883C /*  AtlanticaUrls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871A6FED20F7AC8900C4883C /*  AtlanticaUrls.swift */; };
+		871AB8CE2100FBEE000807BC /* EquipmentInfo.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 871AB8CD2100FBEE000807BC /* EquipmentInfo.storyboard */; };
+		871AB8D02100FD5A000807BC /* EquipmentInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871AB8CF2100FD5A000807BC /* EquipmentInfoViewController.swift */; };
+		871AB8D42100FF6A000807BC /* EquipmentCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871AB8D32100FF6A000807BC /* EquipmentCellTableViewCell.swift */; };
+		871AB8D621013820000807BC /* SpareParts.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 871AB8D521013820000807BC /* SpareParts.storyboard */; };
+		871AB8D82101383F000807BC /* SparePartsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871AB8D72101383F000807BC /* SparePartsViewController.swift */; };
+		871AB8DA2101AFCE000807BC /* Invoice.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 871AB8D92101AFCE000807BC /* Invoice.storyboard */; };
+		871AB8DC2101AFE9000807BC /* InvoiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871AB8DB2101AFE9000807BC /* InvoiceViewController.swift */; };
+		871AB8DE2101BE7E000807BC /* InvoiceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871AB8DD2101BE7E000807BC /* InvoiceCell.swift */; };
+		871AB8E02101E8C4000807BC /* Payment.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 871AB8DF2101E8C4000807BC /* Payment.storyboard */; };
+		871AB8E22101E8EC000807BC /* PaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871AB8E12101E8EC000807BC /* PaymentViewController.swift */; };
+		871AB8E42101EABE000807BC /* YPDrawSignatureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871AB8E32101EABE000807BC /* YPDrawSignatureView.swift */; };
+		871D707920FE8C2800DD1248 /* WorkPerformance.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 871D707820FE8C2800DD1248 /* WorkPerformance.storyboard */; };
+		871DB8A920F8624A00A6927A /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871DB8A820F8624A00A6927A /* Model.swift */; };
 		8767669320F3D6D8009FDF02 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8767669220F3D6D8009FDF02 /* AppDelegate.swift */; };
 		8767669520F3D6D8009FDF02 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8767669420F3D6D8009FDF02 /* ViewController.swift */; };
 		8767669820F3D6D8009FDF02 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8767669620F3D6D8009FDF02 /* Main.storyboard */; };
 		8767669B20F3D6D8009FDF02 /* Atlantica.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8767669920F3D6D8009FDF02 /* Atlantica.xcdatamodeld */; };
 		8767669D20F3D6DA009FDF02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8767669C20F3D6DA009FDF02 /* Assets.xcassets */; };
 		876766A020F3D6DA009FDF02 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8767669E20F3D6DA009FDF02 /* LaunchScreen.storyboard */; };
+		876766A820F3FE83009FDF02 /* LoginPage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 876766A720F3FE83009FDF02 /* LoginPage.storyboard */; };
+		89D14C075AC123A2BBA43EF8 /* Pods_Atlantica.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 720753538779267E6AC52E25 /* Pods_Atlantica.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1685C8DA56DE37B917AE9C92 /* Pods-Atlantica.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Atlantica.release.xcconfig"; path = "Pods/Target Support Files/Pods-Atlantica/Pods-Atlantica.release.xcconfig"; sourceTree = "<group>"; };
+		23196A4B855936F7A7E4EEFB /* Pods-Atlantica.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Atlantica.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Atlantica/Pods-Atlantica.debug.xcconfig"; sourceTree = "<group>"; };
+		720753538779267E6AC52E25 /* Pods_Atlantica.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Atlantica.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		871531B620F51D30008245A3 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		871531BA20F5339E008245A3 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		871531BE20F53560008245A3 /* HomeStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HomeStoryboard.storyboard; sourceTree = "<group>"; };
+		8715B9EC20FA372800ACDBC3 /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		8715B9F020FC49FC00ACDBC3 /* CustomerInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerInfoViewController.swift; sourceTree = "<group>"; };
+		8715B9F220FD01F300ACDBC3 /* WorkHistoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkHistoryCell.swift; sourceTree = "<group>"; };
+		8715B9F420FD2D3800ACDBC3 /* ModelInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelInfoViewController.swift; sourceTree = "<group>"; };
+		8715B9F820FD2FF400ACDBC3 /* WorkPerformedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkPerformedViewController.swift; sourceTree = "<group>"; };
+		8716CB3120FE4DEC00740BDF /* CustomerInfo.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CustomerInfo.storyboard; sourceTree = "<group>"; };
+		8716CB3320FE528C00740BDF /* DispatchInfo.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DispatchInfo.storyboard; sourceTree = "<group>"; };
+		8716CB3520FE55A700740BDF /* DispatchInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DispatchInfoViewController.swift; sourceTree = "<group>"; };
+		871A6FEB20F7A9CB00C4883C /* NetworkHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkHelper.swift; sourceTree = "<group>"; };
+		871A6FED20F7AC8900C4883C /*  AtlanticaUrls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " AtlanticaUrls.swift"; sourceTree = "<group>"; };
+		871AB8CD2100FBEE000807BC /* EquipmentInfo.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = EquipmentInfo.storyboard; sourceTree = "<group>"; };
+		871AB8CF2100FD5A000807BC /* EquipmentInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquipmentInfoViewController.swift; sourceTree = "<group>"; };
+		871AB8D32100FF6A000807BC /* EquipmentCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquipmentCellTableViewCell.swift; sourceTree = "<group>"; };
+		871AB8D521013820000807BC /* SpareParts.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SpareParts.storyboard; sourceTree = "<group>"; };
+		871AB8D72101383F000807BC /* SparePartsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SparePartsViewController.swift; sourceTree = "<group>"; };
+		871AB8D92101AFCE000807BC /* Invoice.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Invoice.storyboard; sourceTree = "<group>"; };
+		871AB8DB2101AFE9000807BC /* InvoiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvoiceViewController.swift; sourceTree = "<group>"; };
+		871AB8DD2101BE7E000807BC /* InvoiceCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvoiceCell.swift; sourceTree = "<group>"; };
+		871AB8DF2101E8C4000807BC /* Payment.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Payment.storyboard; sourceTree = "<group>"; };
+		871AB8E12101E8EC000807BC /* PaymentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentViewController.swift; sourceTree = "<group>"; };
+		871AB8E32101EABE000807BC /* YPDrawSignatureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YPDrawSignatureView.swift; sourceTree = "<group>"; };
+		871D707820FE8C2800DD1248 /* WorkPerformance.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = WorkPerformance.storyboard; sourceTree = "<group>"; };
+		871DB8A820F8624A00A6927A /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		8767668F20F3D6D8009FDF02 /* Atlantica.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Atlantica.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8767669220F3D6D8009FDF02 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8767669420F3D6D8009FDF02 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +81,7 @@
 		8767669C20F3D6DA009FDF02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8767669F20F3D6DA009FDF02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		876766A120F3D6DA009FDF02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		876766A720F3FE83009FDF02 /* LoginPage.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LoginPage.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +89,78 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89D14C075AC123A2BBA43EF8 /* Pods_Atlantica.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		871A6FE820F7A90500C4883C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				871531BA20F5339E008245A3 /* HomeViewController.swift */,
+				871531B620F51D30008245A3 /* LoginViewController.swift */,
+				8767669420F3D6D8009FDF02 /* ViewController.swift */,
+				8715B9F020FC49FC00ACDBC3 /* CustomerInfoViewController.swift */,
+				8715B9F220FD01F300ACDBC3 /* WorkHistoryCell.swift */,
+				8715B9F420FD2D3800ACDBC3 /* ModelInfoViewController.swift */,
+				8715B9F820FD2FF400ACDBC3 /* WorkPerformedViewController.swift */,
+				8716CB3520FE55A700740BDF /* DispatchInfoViewController.swift */,
+				871AB8CF2100FD5A000807BC /* EquipmentInfoViewController.swift */,
+				871AB8D32100FF6A000807BC /* EquipmentCellTableViewCell.swift */,
+				871AB8D72101383F000807BC /* SparePartsViewController.swift */,
+				871AB8DB2101AFE9000807BC /* InvoiceViewController.swift */,
+				871AB8DD2101BE7E000807BC /* InvoiceCell.swift */,
+				871AB8E12101E8EC000807BC /* PaymentViewController.swift */,
+				871AB8E32101EABE000807BC /* YPDrawSignatureView.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		871A6FE920F7A92B00C4883C /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				871531BE20F53560008245A3 /* HomeStoryboard.storyboard */,
+				8767669E20F3D6DA009FDF02 /* LaunchScreen.storyboard */,
+				8767669620F3D6D8009FDF02 /* Main.storyboard */,
+				876766A720F3FE83009FDF02 /* LoginPage.storyboard */,
+				8716CB3120FE4DEC00740BDF /* CustomerInfo.storyboard */,
+				8716CB3320FE528C00740BDF /* DispatchInfo.storyboard */,
+				871D707820FE8C2800DD1248 /* WorkPerformance.storyboard */,
+				871AB8CD2100FBEE000807BC /* EquipmentInfo.storyboard */,
+				871AB8D521013820000807BC /* SpareParts.storyboard */,
+				871AB8D92101AFCE000807BC /* Invoice.storyboard */,
+				871AB8DF2101E8C4000807BC /* Payment.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		871A6FEA20F7A9AF00C4883C /* CommonClasses */ = {
+			isa = PBXGroup;
+			children = (
+				871A6FEB20F7A9CB00C4883C /* NetworkHelper.swift */,
+				871A6FED20F7AC8900C4883C /*  AtlanticaUrls.swift */,
+				8715B9EC20FA372800ACDBC3 /* Utility.swift */,
+			);
+			path = CommonClasses;
+			sourceTree = "<group>";
+		};
+		871A6FEF20F7E2A300C4883C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				871DB8A820F8624A00A6927A /* Model.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		8767668620F3D6D8009FDF02 = {
 			isa = PBXGroup;
 			children = (
 				8767669120F3D6D8009FDF02 /* Atlantica */,
 				8767669020F3D6D8009FDF02 /* Products */,
+				EE47D2C66C5FC1705129E8C1 /* Pods */,
+				B192739BD1DF1DCFA9148D53 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +175,33 @@
 		8767669120F3D6D8009FDF02 /* Atlantica */ = {
 			isa = PBXGroup;
 			children = (
+				871A6FEF20F7E2A300C4883C /* Models */,
+				871A6FEA20F7A9AF00C4883C /* CommonClasses */,
+				871A6FE920F7A92B00C4883C /* Storyboards */,
 				8767669220F3D6D8009FDF02 /* AppDelegate.swift */,
-				8767669420F3D6D8009FDF02 /* ViewController.swift */,
-				8767669620F3D6D8009FDF02 /* Main.storyboard */,
+				871A6FE820F7A90500C4883C /* Controllers */,
 				8767669C20F3D6DA009FDF02 /* Assets.xcassets */,
-				8767669E20F3D6DA009FDF02 /* LaunchScreen.storyboard */,
 				876766A120F3D6DA009FDF02 /* Info.plist */,
 				8767669920F3D6D8009FDF02 /* Atlantica.xcdatamodeld */,
 			);
 			path = Atlantica;
+			sourceTree = "<group>";
+		};
+		B192739BD1DF1DCFA9148D53 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				720753538779267E6AC52E25 /* Pods_Atlantica.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EE47D2C66C5FC1705129E8C1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				23196A4B855936F7A7E4EEFB /* Pods-Atlantica.debug.xcconfig */,
+				1685C8DA56DE37B917AE9C92 /* Pods-Atlantica.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +211,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 876766A420F3D6DA009FDF02 /* Build configuration list for PBXNativeTarget "Atlantica" */;
 			buildPhases = (
+				15F980B84E7D6252D0B287E9 /* [CP] Check Pods Manifest.lock */,
 				8767668B20F3D6D8009FDF02 /* Sources */,
 				8767668C20F3D6D8009FDF02 /* Frameworks */,
 				8767668D20F3D6D8009FDF02 /* Resources */,
+				AE74B8BF6A908678F1822614 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,22 +264,92 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				871AB8CE2100FBEE000807BC /* EquipmentInfo.storyboard in Resources */,
+				8716CB3420FE528C00740BDF /* DispatchInfo.storyboard in Resources */,
 				876766A020F3D6DA009FDF02 /* LaunchScreen.storyboard in Resources */,
+				871AB8E02101E8C4000807BC /* Payment.storyboard in Resources */,
+				8716CB3220FE4DEC00740BDF /* CustomerInfo.storyboard in Resources */,
+				876766A820F3FE83009FDF02 /* LoginPage.storyboard in Resources */,
 				8767669D20F3D6DA009FDF02 /* Assets.xcassets in Resources */,
 				8767669820F3D6D8009FDF02 /* Main.storyboard in Resources */,
+				871D707920FE8C2800DD1248 /* WorkPerformance.storyboard in Resources */,
+				871531BF20F53560008245A3 /* HomeStoryboard.storyboard in Resources */,
+				871AB8D621013820000807BC /* SpareParts.storyboard in Resources */,
+				871AB8DA2101AFCE000807BC /* Invoice.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		15F980B84E7D6252D0B287E9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Atlantica-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE74B8BF6A908678F1822614 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Atlantica/Pods-Atlantica-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SkyFloatingLabelTextField/SkyFloatingLabelTextField.framework",
+				"${BUILT_PRODUCTS_DIR}/Toast-Swift/Toast_Swift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SkyFloatingLabelTextField.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Toast_Swift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Atlantica/Pods-Atlantica-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8767668B20F3D6D8009FDF02 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				871531BB20F5339E008245A3 /* HomeViewController.swift in Sources */,
+				871531B720F51D30008245A3 /* LoginViewController.swift in Sources */,
+				871AB8DC2101AFE9000807BC /* InvoiceViewController.swift in Sources */,
+				8715B9ED20FA372800ACDBC3 /* Utility.swift in Sources */,
 				8767669520F3D6D8009FDF02 /* ViewController.swift in Sources */,
+				871AB8D82101383F000807BC /* SparePartsViewController.swift in Sources */,
+				8715B9F920FD2FF400ACDBC3 /* WorkPerformedViewController.swift in Sources */,
+				871AB8E22101E8EC000807BC /* PaymentViewController.swift in Sources */,
+				8715B9F320FD01F300ACDBC3 /* WorkHistoryCell.swift in Sources */,
 				8767669320F3D6D8009FDF02 /* AppDelegate.swift in Sources */,
+				8715B9F120FC49FC00ACDBC3 /* CustomerInfoViewController.swift in Sources */,
+				871AB8D02100FD5A000807BC /* EquipmentInfoViewController.swift in Sources */,
+				8715B9F520FD2D3800ACDBC3 /* ModelInfoViewController.swift in Sources */,
+				871A6FEC20F7A9CB00C4883C /* NetworkHelper.swift in Sources */,
+				871AB8DE2101BE7E000807BC /* InvoiceCell.swift in Sources */,
+				871A6FEE20F7AC8900C4883C /*  AtlanticaUrls.swift in Sources */,
+				871AB8D42100FF6A000807BC /* EquipmentCellTableViewCell.swift in Sources */,
+				871AB8E42101EABE000807BC /* YPDrawSignatureView.swift in Sources */,
 				8767669B20F3D6D8009FDF02 /* Atlantica.xcdatamodeld in Sources */,
+				8716CB3620FE55A700740BDF /* DispatchInfoViewController.swift in Sources */,
+				871DB8A920F8624A00A6927A /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +491,7 @@
 		};
 		876766A520F3D6DA009FDF02 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23196A4B855936F7A7E4EEFB /* Pods-Atlantica.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -299,6 +509,7 @@
 		};
 		876766A620F3D6DA009FDF02 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1685C8DA56DE37B917AE9C92 /* Pods-Atlantica.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -324,7 +535,7 @@
 				876766A320F3D6DA009FDF02 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		876766A420F3D6DA009FDF02 /* Build configuration list for PBXNativeTarget "Atlantica" */ = {
 			isa = XCConfigurationList;
@@ -333,7 +544,7 @@
 				876766A620F3D6DA009FDF02 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 

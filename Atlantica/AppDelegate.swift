@@ -17,6 +17,24 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+//        if UserDefaults.standard.bool(forKey: "userLogin") {
+//
+//            let mainStoryboardIpad : UIStoryboard = UIStoryboard(name: "HomeStoryboard", bundle: nil)
+//            let initialViewControlleripad : UIViewController = mainStoryboardIpad.instantiateViewController(withIdentifier: "HomeViewController") as! HomeViewController
+//            self.window = UIWindow(frame: UIScreen.main.bounds)
+//            self.window?.rootViewController = initialViewControlleripad
+//            self.window?.makeKeyAndVisible()
+//        } else {
+//
+//
+//            let mainStoryboardIpad : UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+//            let initialViewControlleripad : UIViewController = mainStoryboardIpad.instantiateViewController(withIdentifier: "ViewController") as! ViewController
+//            self.window = UIWindow(frame: UIScreen.main.bounds)
+//            navigationController.viewControllers = [initialViewControlleripad]
+//            self.window?.rootViewController = navigationController
+//            self.window?.rootViewController = initialViewControlleripad
+//            self.window?.makeKeyAndVisible()
+//        }
         return true
     }
 
